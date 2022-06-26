@@ -1,0 +1,31 @@
+form {
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 30px 50px;
+  }
+
+  input {
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 100%;
+  }
+
+  .submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 37, 110);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    width: 80px;
+    height: 40PX;
+    margin: 20px 0;
+  }
